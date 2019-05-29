@@ -13,6 +13,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 }
 
 function deleteFromObjectByKey(object, key) {
-  delete object[key]
-  return object
+  let newObj = delete object[key]
+  return newObj
 }
